@@ -6,8 +6,11 @@ public class Average {
       System.out.println("Enter the average");
       int n = x.nextInt();
       
-      if (n<0|) {
-        
+      if (marks<0||marks<100) {
+        System.out.println("You have entered the wrong marks");
+      }
+      else if (0<=marks && marks<40) {
+        System.out.println("C");
       }
     }
 }

@@ -15,5 +15,9 @@ public class Average {
       else if (40<=marks && marks<70) {
         System.out.println("B");
       }
+      else(70<=marks && marks<=100){
+        System.out.println("A");
+      }
+
     }
 }
